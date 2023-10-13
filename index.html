@@ -74,6 +74,7 @@
             <!-- Accordion -->
             <div class="col-12">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <!-- BASES -->
                     <div class="accordion-item">
                         <h2 class="accordion-header mb-1" id="flush-headingOne">
                             <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#accordionBases" aria-expanded="false" aria-controls="flush-collapseOne">Bases</button>
@@ -98,14 +99,14 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- CALDOS -->
                     <div class="accordion-item">
                         <h2 class="accordion-header mb-1" id="flush-headingTwo">
                             <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#accordionCaldos" aria-expanded="false" aria-controls="flush-collapseTwo">Caldos</button>
                         </h2>
                         <div id="accordionCaldos" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body px-3 py-2">
-                                <!-- Card -->
+                                <!-- Card 1 -->
                                 <div class="row align-items-center" data-bs-toggle="modal" data-bs-target="#caldoPolloModal">
                                     <div class="col-3 ps-1">
                                         <img src="./img/thumb/caldo_ave.webp" alt="" class="img-fluid">
@@ -119,14 +120,29 @@
                                         </svg>
                                     </div>
                                     <hr class="mx-auto my-2">
-                                </div>  
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="row align-items-center" data-bs-toggle="modal" data-bs-target="#caldoPescadoModal">
+                                    <div class="col-3 ps-1">
+                                        <img src="./img/thumb/peix-roca.webp" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-8 ps-0">
+                                        <p class="mb-0">Caldo de pescado</p>
+                                    </div>
+                                    <div class="col-1 ps-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                    <hr class="mx-auto my-2">
+                                </div>    
                             </div>
                         </div>
                     </div>
-
+                    <!-- FONDOS -->
                     <div class="accordion-item">
                         <h2 class="accordion-header mb-1" id="flush-headingThree">
-                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#accordionPlatos" aria-expanded="false" aria-controls="flush-collapseThree">Platos</button>
+                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#accordionPlatos" aria-expanded="false" aria-controls="flush-collapseThree">Fondos</button>
                         </h2>
                         <div id="accordionPlatos" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
@@ -330,6 +346,110 @@
                                 <p><span>08 | </span>Levantado el hervor destapar colocar a fuego medio y dejar cocer 40 min.</p>
                                 <p><span>09 | </span>Antes de apagar el fuego añadir las hojas de gelatina escurridas y batir para incorporar, salar y pasar por un colador chino.</p>
                                 <p><span>10 | </span>Reservar aparte los huesos . Abatir el caldo, una vez frío, stockar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Caldo Pescado -->
+    <div class="modal fade" id="caldoPescadoModal" tabindex="-1" aria-labelledby="caldoPescadoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 mb-2">
+                            <img src="./img/dish/peix-roca.webp" class="img-fluid" alt="Caldo de pescado">
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-2">
+                                <h1 class="recipe-title text-center text-uppercase">"Caldo de pescado</h1>
+                            </div>
+                            <div class="recipe-info d-flex justify-content-between border-top border-bottom py-2 mb-3">
+                                <p class="time mb-0">
+                                    <strong>Preparación</strong>
+                                    <span class="d-block text-center">30 min</span>
+                                </p>
+                                <p class="baking mb-0">
+                                    <strong>Cocción</strong>
+                                    <span class="d-block text-center">30 min</span>
+                                </p>
+                                <p class="quantity mb-0">
+                                    <strong>Cantidad</strong>
+                                    <span class="d-block text-center">12 l</span>
+                                </p>                   
+                                <p class="rest mb-0">
+                                    <strong>Reposo</strong>
+                                    <span class="d-block text-center">No</span>					
+                                </p>
+                            </div>
+                            <div class="ingredients-box mb-4">
+                                <div class="px-2 py-3">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h4 class="mb-2">Ingredientes</h4>
+                                            <div class="ingredients">
+                                                <ul class="ingredients-list ps-0 mb-0">
+                                                    <li>3Kg Morralla</li>
+                                                    <li>1un Cabeza de rape</li>
+                                                    <li>1kg Cangrejos/Galeras</li>
+                                                    <li>1,5kg Bresa *</li>
+                                                    <li>2un Cabeza ajos</li>
+                                                    <li>1/2Kg Tomate triturado</li>
+                                                    <li>80gr. Tomate concentrado</li>
+                                                    <li>1un Aromaticos **</li>
+                                                    <li>18un Gelatina (hojas)</li>
+                                                    <li>150ml Aceite de oliva sauve</li>
+                                                    <li>12l Agua mineral</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="mb-2">Costes</h4>
+                                            <div class="ingredients">
+                                                <ul class="ingredients-list ps-0 mb-0">
+                                                    <li class="d-flex justify-content-between">
+                                                        <span>Pr. Total</span>
+                                                        <span>33,10€</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between">
+                                                        <span>Nº Raciones/l</span>
+                                                        <span>12</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between">
+                                                        <span>Pr. Ración/l</span>
+                                                        <span>2,76€</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between">
+                                                        <span>PVP</span>
+                                                        <span>9,19€</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between">
+                                                        <span>FC%</span>
+                                                        <span>30,03</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="elaboration-box mb-4">
+                                <p><span>00 | </span>*Bresa (Cebollas,  Zanahorias, Puerros, Apio) - **Aromáticos (Laurel, Perejil, Pimienta en grano).</p>
+                                <p><span>01 | </span>Poner a remojar las hojas de gelatina. Poner a hervir los 12 litros de agua.</p>
+                                <p><span>02 | </span>Limpiar la morralla y partir a trozos la cabeza de rape, lavar y escurrir.</p>
+                                <p><span>03 | </span>En una olla colocar 2/3 partes del aceite, colocar las cabezas de ajo partidas por la mitad, añadir la bresa e ir sofriendo a fuego lento.</p>
+                                <p><span>04 | </span>Con el resto del aceite saltear los cangrejos y galeras hasta que hayan tomado color. Machacarlos o triturarlos ligeramente con un procesador. Reservar.</p>
+                                <p><span>05 | </span>Cuando la bresa esté ligeramente rehogada añadir el tomate triturado y prolongar la cocción 10 min.</p>
+                                <p><span>06 | </span>Agregar los cangrejos machacados, dejar cocer 5 minutos más y añadirle el concentrado de tomate.</p>
+                                <p><span>07 | </span>Añadir la morralla y la cabeza de rape junto a los aromaticos, tapar la olla y a fuego medio cocer 10 minutos.</p>
+                                <p><span>08 | </span>Verter el agua hirviendo y tapar. Ir desespumando y cuando arranque el hervor contar 20 minutos.</p>
+                                <p><span>09 | </span>Transcurridos los 20 minutos, apagar el fuego y añadir la gelatina remojada y escurrida, remover y pasar por el chino.</p>
+                                <p><span>10 | </span>Abatir el caldo, una vez frío, stockar.</p>
                             </div>
                         </div>
                     </div>
