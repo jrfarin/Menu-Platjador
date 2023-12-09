@@ -38,6 +38,14 @@ btnCaldos.addEventListener('click', () => {
     }, 500);
 });
 
+const btnSalsas = document.querySelector('.btn-salsas');
+const accordionSalsas = document.querySelector('#accordionSalsas');
+btnSalsas.addEventListener('click', () => {
+    setTimeout(() => {
+        accordionSalsas.classList.add('show')
+    }, 500);
+});
+
 const btnPlatos = document.querySelector('.btn-platos');
 const accordionPlatos = document.querySelector('#accordionPlatos');
 btnPlatos.addEventListener('click', ()=> {
